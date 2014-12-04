@@ -8,7 +8,11 @@ import org.apache.commons.codec.digest.DigestUtils;
 import org.digitalpio.commons.misc.Privacy;
 import org.digitalpio.core.orgs.Domainable;
 
-
+/**
+ * The Domain class hold basic string data relating to an organization's 
+ * domain (or namespaces).
+ * @author Owen
+ */
 @javax.annotation.concurrent.Immutable
 @org.checkthread.annotations.ThreadSafe
 @lombok.Value
